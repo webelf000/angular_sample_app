@@ -7,10 +7,6 @@ angular.module("myApp").directive("matrix", function () {
             
         },
 
-
-
-
-
         templateUrl: "app/components/pmbok/matrixtemplate.html",
 
         link: function ($scope, element, attrs) {
