@@ -10,8 +10,8 @@ angular.module("myApp").config(function ($routeProvider) {
         templateUrl : "app/components/employee/employee.html",
         controller : "empctrl"
     })
-    .when("/paris", {
-        templateUrl : "paris.htm",
-        controller : "parisCtrl"
+    .when("/pmbok", {
+        templateUrl : "app/components/pmbok/pmbokmatrix.html",
+        controller : "matrixctrl"
     });
 });
